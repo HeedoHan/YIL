@@ -9,7 +9,16 @@
 <TextView
     android:id="@+id/textview"
     android:layout_width="wrap_content"
-    android:layout_height="match_parent"
-    android:gravity="center"/>
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="145dp"
+        android:text="버튼 이름"
+        android:layout_gravity="center_vertical"
+        android:textSize="45dp" />
 
 </LinearLayout>
