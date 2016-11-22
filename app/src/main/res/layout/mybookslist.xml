@@ -13,8 +13,8 @@
         android:layout_width="78dp"
         android:layout_height="match_parent"
         android:background="@drawable/btn_list_image"
-        android:id="@+id/btn_grouplist"
-        android:onClick="onClick3"/>
+        android:id="@+id/btn_grouplist"/>
+       <!-- android:onClick="onClick3"-->
 
         <SearchView
             android:layout_width="100dp"
