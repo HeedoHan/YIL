@@ -14,9 +14,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="책 제목"
+        android:hint="책 제목"
         android:ems="10"
-        android:id="@+id/editText" />
+        android:id="@+id/editText"
+        />
 
     <Space
         android:layout_width="20dp"
@@ -27,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="책 저자"
+        android:hint="책 저자"
         android:ems="10"
         android:id="@+id/editText2" />
 
@@ -40,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="출판사"
+        android:hint="출판사"
         android:ems="10"
         android:id="@+id/editText3" />
 
@@ -53,7 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="판 수"
+        android:hint="판 수"
         android:ems="10"
         android:id="@+id/editText4"
         android:layout_gravity="right" />
