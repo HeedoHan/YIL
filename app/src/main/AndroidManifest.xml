@@ -36,6 +36,8 @@
             android:name=".RegistActivity"/>
         <activity
             android:name=".AddBookActivity"/>
+        <activity
+            android:name="GroupListActivity"/>
 
     </application>
 </manifest>
