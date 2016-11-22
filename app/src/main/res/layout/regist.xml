@@ -42,8 +42,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/local_info"
-        android:text="지역"
+        android:text="그룹"
         android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:text="사용자 입력"
+            android:textSize="15sp"
+            android:singleLine="true" />
+
+        <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/editbox_style"/>
+
+        </LinearLayout>
 
     <Spinner
         android:layout_width="match_parent"

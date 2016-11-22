@@ -29,6 +29,7 @@
             android:hint="비밀번호"
             android:inputType="textPassword"
             />
+
     </LinearLayout>
     android:orientation="horizontal"
     android:gravity="center"
@@ -43,6 +44,8 @@
     android:text="로그인"/>
 
     <Button
+        android:id="@+id/btn_regist"
+        android:onClick="onClick1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="회원가입"/>

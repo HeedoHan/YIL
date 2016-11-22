@@ -31,7 +31,11 @@
 
 <!--서브 액티비티-->
         <activity
-            android:name=".MyBooksList" />
+            android:name=".MyBooksList"/>
+        <activity
+            android:name=".RegistActivity"/>
+        <activity
+            android:name=".AddBookActivity"/>
 
     </application>
 </manifest>
